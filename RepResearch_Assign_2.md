@@ -250,7 +250,7 @@ ggtitle("Total Injuries by Severe Weather\n Events in the U.S.\n from 1995 - 201
 grid.arrange(fatalitiesPlot, injuriesPlot, ncol = 2)
 ```
 
-![](RepResearch_Assign_2_files/figure-html/unnamed-chunk-10-1.png) 
+![plot of Image2](Figure/Image2.png) 
 
 Based on the above histograms, we find that **excessive heat** and **tornado** cause most fatalities; **tornato** causes most injuries in the United States from 1995 to 2011.
 
@@ -315,7 +315,7 @@ xlab("Severe Weather Type") + ggtitle("Total Crop Damage by \nSevere Weather Eve
 grid.arrange(propertyPlot, cropPlot, ncol = 2)
 ```
 
-![](RepResearch_Assign_2_files/figure-html/unnamed-chunk-12-1.png) 
+![plot of Image3](Figure/Image3.png) 
 
 Based on the above histograms, we find that **flood** and **hurricane/typhoon** cause most property damage; **drought** and **flood** causes most crop damage in the United States from 1995 to 2011.
 
