@@ -92,7 +92,7 @@ stormData$year <- as.numeric(format(as.Date(stormData$BGN_DATE, format = "%m/%d/
 hist(stormData$year, breaks = 30)
 ```
 
-![](RepResearch_Assign_2_files/figure-html/unnamed-chunk-5-1.png) 
+![plot](figure/Image1.png)  
 
 Based on the above histogram, we see that the number of events tracked starts to significantly increase around 1995. So, we use the subset of the data from 1990 to 2011 to get most out of good records.
 
